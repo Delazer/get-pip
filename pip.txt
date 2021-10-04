@@ -1,2 +1,6 @@
 pygame: python -m pip install -U pygame --user
-pygame: python -m pip install pip --upgrade
+pip: python -m pip install pip --upgrade
+py-to-exe:
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd %userprofile%/desktop
+python setup.py install
