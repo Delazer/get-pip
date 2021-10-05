@@ -1,3 +1,4 @@
+libs list:
 pip: python -m pip install pip --upgrade
 pygame: python -m pip install -U pygame --user
 auto-py-to-exe:
